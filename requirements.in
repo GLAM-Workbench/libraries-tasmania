@@ -4,3 +4,17 @@ voila-material @ git+https://github.com/GLAM-Workbench/voila-material.git
 pandas
 requests
 altair
+pymupdf
+boto3
+pyvips
+pytesseract
+sqlite-utils
+natsort
+python-slugify
+ipywidgets
+tqdm
+jinja2==3.0.3 #Pinned for datasette
+datasette
+datasette-search-all
+datasette-template-sql
+datasette-template-request

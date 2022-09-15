@@ -5,7 +5,7 @@
   "related_identifiers": [
     {
       "scheme": "url",
-      "identifier": "https://github.com/GLAM-Workbench/libraries-tasmania/tree/v0.0.0",
+      "identifier": "https://github.com/GLAM-Workbench/libraries-tasmania/tree/v1.0.0",
       "relation": "isDerivedFrom",
       "resource_type": "software"
     },
@@ -22,7 +22,7 @@
       "resource_type": "other"
     }
   ],
-  "version": "v0.0.0",
+  "version": "v1.0.0",
   "upload_type": "software",
   "keywords": [
     "digital humanities",
@@ -32,10 +32,10 @@
   "publication_date": "2022-09-15",
   "creators": [
     {
-        "name": "Sherratt, Tim",
-        "orcid": "0000-0001-7956-4498"
+      "name": "Sherratt, Tim",
+      "orcid": "0000-0001-7956-4498"
     }
-],
+  ],
   "access_right": "open",
-  "description": ""
+  "description": "<p>Current version: <a href=\"https://github.com/GLAM-Workbench/libraries-tasmania/releases/tag/v1.0.0\">v1.0.0</a></p> <p>Tools and examples for working with data from Libraries Tasmania. For more information see the <a href=\"https://glam-workbench.net/libraries-tasmania/\">Libraries Tasmania</a> section of the GLAM Workbench.</p> <h2 id=\"notebook-topics\">Notebook topics</h2> <ul> <li>Notebook title – this notebook does things</li> </ul> <p>See the <a href=\"https://glam-workbench.github.io/libraries-tasmania/\">GLAM Workbench for more details</a>.</p> <h2 id=\"cite-as\">Cite as</h2> <p>See the GLAM Workbench or <a href=\"https://doi.org/10.5281/zenodo.3521724\">Zenodo</a> for up-to-date citation details.</p> <hr /> <p>This repository is part of the <a href=\"https://glam-workbench.github.io/\">GLAM Workbench</a>.</p>"
 }

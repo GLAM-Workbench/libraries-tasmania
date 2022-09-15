@@ -1,15 +1,19 @@
 # Libraries Tasmania
 
-Current version: [v0.0.0](https://github.com/GLAM-Workbench/libraries-tasmania/releases/tag/v0.0.0)
+Current version: [v1.0.0](https://github.com/GLAM-Workbench/libraries-tasmania/releases/tag/v1.0.0)
 
-Tools and examples for working with data from Libraries Tasmania. For more information see the [Libraries Tasmania](https://glam-workbench.net/libraries-tasmania/) section of the GLAM Workbench.
+Tools and examples for working with data from [Libraries Tasmania](https://www.libraries.tas.gov.au/). For more information see the [Libraries Tasmania](https://glam-workbench.net/libraries-tasmania/) section of the GLAM Workbench.
 
-## Notebook topics
+## Tasmanian Post Office Directories
 
-* [Notebook title](notebook.ipynb) – this notebook does things
+The [Tasmanian Post Office Directories from 1890 to 1948](https://stors.tas.gov.au/ILS/SD_ILS-981598) have been digitised and made available by Libraries Tasmania for download as PDFs. These notebooks document a workflow that extracts text and images from the PDFs to build a [searchable database of their contents](https://glam-workbench.net/tasmanian-post-office-directories/).
+
+* [Download and process Tasmanian Post Office Directory PDFs](tas-pod-save-text-images.ipynb) – downloads all 48 PDFs, then extracts images and text from the PDFs using PyMuPDF
+* [Upload Tasmanian Post Office Directory images to Amazon s3 for IIIF](tas-pod-upload-images.ipynb) – converts the images into pyramidal TIFFs using pyvips and then uploads them to an Amazon s3 bucket for delivery via IIIF
+* [Extract text from PDF images using Tesseract](tas-pod-ocr-with-tesseract.ipynb) – uses Tesseract to extract text from the images
+* [Add content from the Tasmanian Post Office Directories to an SQLite database](tas-pod-add-to-datasette.ipynb) – brings everything together in an SQLite database ready for delivery through Datasette
 
 See the [GLAM Workbench for more details](https://glam-workbench.github.io/libraries-tasmania/).
-
 
 <!-- START RUN INFO -->
 
